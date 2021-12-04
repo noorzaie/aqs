@@ -78,7 +78,7 @@ There are some other features such as defining custom operators, parse values, .
 <th>Description</th>
 <th>Default value</th>
 </tr>
-<tr><td rowspan="7">**paramsConfigs**<br>(Configs that can be set for each parameter)</td>
+<tr><td rowspan="7"><b>paramsConfigs</b><br>(Configs that can be set for each parameter)</td>
 <td>defaultValue</td><td>Default value of specific param</td><td></td></tr>
 <tr><td>defaultOptions</td><td>Set default operator for specific param</td><td></td></tr>
 <tr><td>parser</td><td>Use a parser to parse value</td><td></td></tr>
@@ -87,7 +87,7 @@ There are some other features such as defining custom operators, parse values, .
 <tr><td>allowedOps</td><td>List of allowed operators to be used</td><td>all</td></tr>
 <tr><td>mapOp</td><td>If false, short name of operator will be returned, Otherwise fullname of operator will be returned</td><td>true</td></tr>
 
-<tr><td rowspan="7">**globalConfigs**<br>(Configs that will be applied on all parameters)</td>
+<tr><td rowspan="7"><b>globalConfigs</b><br>(Configs that will be applied on all parameters)</td>
 <td>allowedParams</td><td>List of parameters that could be passed in query string</td><td>all</td></tr>
 <tr><td>excludedParams</td><td>List of parameters that could not be passed in query string</td><td></td></tr>
 <tr><td>parseArrays</td><td>Parse array values or not</td><td>true</td></tr>
@@ -96,7 +96,7 @@ There are some other features such as defining custom operators, parse values, .
 <tr><td>allowLogic</td><td>Allow logic in query string or not</td><td>true</td></tr>
 <tr><td>throwWrongLogic</td><td>Throw error if incorrect logic passed</td><td>false</td></tr>
 
-<tr><td rowspan="7">**fixedParams**<br>(List of parameters that always will be returned)</td>
+<tr><td rowspan="7"><b>fixedParams</b><br>(List of parameters that always will be returned)</td>
 <td>name</td><td>Name of parameter</td><td></td></tr>
 <tr><td>value</td><td>Value of parameter</td><td></td></tr>
 <tr><td>op</td><td>Operator of parameter</td><td></td></tr>
