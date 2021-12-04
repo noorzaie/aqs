@@ -1,6 +1,6 @@
 {
     "name": "aqs",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "keywords": [ "query string", "querystring", "parse", "url", "query", "qs" ],
     "author": "Azizahmad Noorzaie",
     "description": "parse query strings with advanced features",
