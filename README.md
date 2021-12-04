@@ -48,7 +48,7 @@ const { parse } = require('aqs');
 const parsed = parse('skill=coding&age=30&experience=8&logic=(and,skill,(or,age,experience))');   // skill==coding and (age==30 or experience==8)
 ```
 ### Other features
-There are some other features such as defining custom operators, parse values, ... that you can find them in [exmaples](https://github.com/noorzaie/aqs/tree/master/examples) folder.
+There are some other features such as defining custom operators, parse values, ... that you can find them in [examples](https://github.com/noorzaie/aqs/tree/master/examples) folder.
 
 ## List of operators
 
