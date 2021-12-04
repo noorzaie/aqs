@@ -1,7 +1,7 @@
 AQS is a query parser library that provides advanced operations comparing to typical query parser libraries.
 For example, you can use different operators additional to `=`, or parse values from string to whatever you want and even define complex logic instead of just using `and` operator for parameters!
 
-### Installation
+## Installation
 
 ```npm
 npm install aqs
