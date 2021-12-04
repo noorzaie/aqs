@@ -1,15 +1,22 @@
 {
     "name": "aqs",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "keywords": [ "query string", "querystring", "parse", "url", "query", "qs" ],
-    "author": "Azizahmad Noorzaie",
+    "author": {
+        "email": "aanoorzaie@gmail.com",
+        "name": "AzizAhmad Noorzaie"
+    },
     "description": "parse query strings with advanced features",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/noorzaie/aqs"
+    },
     "main": "index.js",
     "scripts": {
         "test": "ts-node examples/customParser.ts",
         "build": "tsc"
     },
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
         "@types/node": "^16.11.1",
         "ts-node": "^10.4.0",
